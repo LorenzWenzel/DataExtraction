@@ -1,0 +1,12 @@
+version: '3.3'
+services:
+  lithireapp:
+    image: lithire
+    build: .
+    volumes:
+      - ${CV_FILE_PATH}:/data/Lebenslauf.pdf
+      - ${LITHIREAPP_BASE}/images:/app/images
+    environment:
+      - CV_FILE_PATH=/data/Lebenslauf.pdf
+    ports:
+      - "5000:5000"
