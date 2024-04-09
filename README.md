@@ -1,6 +1,6 @@
 # DataExtraction
 
-Das Script extrahiert aus .docx- und allen gängigen PDF-Dateien sowohl den Text, als auch ein Profilbild. Hierbei werden alle Bilder durch eine KI von OpenCV auf Gesichter überprüft und das erste Bild als Profilbild gewertet. 
+Das dockerisierte Script extrahiert aus .docx- und allen gängigen PDF-Dateien sowohl den Text, als auch ein Profilbild. Hierbei werden alle Bilder durch eine KI von OpenCV auf Gesichter überprüft und das erste Bild als Profilbild gewertet. 
 
 ## Flussdiagramm der Datenextraktion:
 
