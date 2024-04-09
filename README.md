@@ -16,3 +16,7 @@ Das dockerisierte Script extrahiert aus .docx- und allen gängigen PDF-Dateien s
 5.	**Pytesseract für OCR**: Pytesseract ist eine Implementierung von Tesseract-OCR und extrahiert Text durch optische Zeichenerkennung (vgl. Abschnitt ‎2.3.2). Lizenz: Apache Software License (Apache License 2.0). [pytesseract](https://pypi.org/project/pytesseract/)
 6.	**OpenCV (cv2) für Gesichtserkennung und Gesichtsausschnitt**: OpenCV nutzt das vortrainierte Modell „haarcascade_frontalface_default.xml“, um Gesichter identifi-zieren zu können. Dieses Modell ist in der Lage, verschiedene Gesichtsmerkmale in Bildern zu erkennen. Durch charakteristische Merkmale, wie Augen, Nase und Mund sollen mögliche Profilbilder klassifiziert werden können. [OpenCV: Cascade Classifier](https://docs.opencv.org/3.4/db/d28/tutorial_cascade_classifier.html)
 
+## Projekt ausführen: 
+
+Erstellen sie eine .env Datei bei der sie die Variable CV_FILE_PATH auf den Dateipfad setzen. 
+Fphren sie anschließend das lit.bat Skript aus. 
