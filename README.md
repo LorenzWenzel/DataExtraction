@@ -2,7 +2,7 @@
 
 Das Script extrahiert aus .docx- und allen gängigen PDF-Dateien sowohl den Text, als auch ein Profilbild. Hierbei werden alle Bilder durch eine KI von OpenCV auf Gesichter überprüft und das erste Bild als Profilbild gewertet. 
 
-##Flussdiagramm der Datenextraktion:
+## Flussdiagramm der Datenextraktion:
 
 ![image](https://github.com/LorenzWenzel/DataExtraction/assets/73563833/01ccf414-4ff2-4ac0-ac86-faa0503536a9)
 
